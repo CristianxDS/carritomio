@@ -15,7 +15,7 @@ const Stack = createStackNavigator();
 const StackNavegator = () => {
     //arreglo de usuarios: permitir inicio de sesión
     const users: User[] = [
-        { id: 1, email: 'Cris@gmail.com', password: '12345' },
+        { id: 1, email: 'cris@gmail.com', password: '12345' },
         { id: 2, email: 'Cristi@gmail.com', password: '1234567' }
     ];
     //hook useState: manipular el arreglo con la lista de usuarios

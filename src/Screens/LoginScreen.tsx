@@ -54,7 +54,7 @@ const LoginScreen = ({users}:Props) => {
         //validar si la contraseña y correo existe
         if (!verifyUser()) { //valor nulo 
             Alert.alert(
-                "Error",
+                "Bienvenido",
                 " ¡ Contrasena y/o Correo Incorrecta ! "
             );
             return;

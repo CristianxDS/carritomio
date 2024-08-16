@@ -97,6 +97,108 @@ imageCard:{
 IconCard:{
     flex:1,
     alignItems:'flex-end'
+},
+contentPrincipal: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.5)',
+},
+contentModal: {
+    backgroundColor: SecundaryColor,
+    padding: 25,
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: {
+        width: 0,
+        height: 2
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5
+},
+headerModal: {
+    flexDirection: 'row',
+    borderBottomColor: '#ccc',
+    borderBottomWidth: 2,
+    padding: 10,
+    alignItems: 'center'
+},
+titleModal: {
+    fontSize: 18,
+    fontWeight: 'bold',
+},
+imageModal: {
+    width: 200,
+    height: 200
+},
+contentQuantity: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+},
+buttonQuantity: {
+    width: 50,
+    height: 50,
+    backgroundColor: PrimaryColor,
+    borderRadius: 100,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 17
+},
+textButtonQuantity: {
+    color: SecundaryColor,
+    fontSize: 20,
+    fontWeight: 'bold'
+},
+textQuantity: {
+    fontSize: 20,
+    color: '#000',
+    textAlign: 'center'
+},
+buttonAddCard: {
+    backgroundColor: PrimaryColor,
+    alignItems: 'center',
+    marginTop: 15,
+    paddingVertical: 10,
+    borderRadius: 5
+},
+textButtonAddCard: {
+    color: SecundaryColor,
+    fontWeight: 'bold'
+},
+messageStock: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#b52828',
+    textAlign: 'center'
+},
+contentHeaderHome: {
+    flexDirection: 'row',
+    alignItems: 'center'
+},
+textIconCar: {
+    backgroundColor: SecundaryColor,
+    borderRadius: 100,
+    paddingHorizontal: 5,
+    fontSize: 14,
+    fontWeight: 'bold'
+},
+headerTable: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+},
+headerTableInf: {
+    flexDirection: 'row',
+},
+textHeaderInf: {
+    fontWeight: 'bold',
+    color: '#000'
+},
+textTotalPay: {
+    marginTop: 15,
+    fontSize: 15,
+    fontWeight: 'bold'
 }
 })
 export default styles
